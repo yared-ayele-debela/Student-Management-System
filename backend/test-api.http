@@ -1,0 +1,37 @@
+
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "firstName": "John Doe",
+  "lastName": "Last Name",
+  "email": "john@example.com",
+  "age": 22,
+  "course": "Computer Science"
+}
+
+###
+
+GET http://localhost:8080/api/students
+
+
+###
+
+GET http://localhost:8080/api/students/2
+
+###
+
+PUT http://localhost:8080/api/students/1
+Content-Type: application/json
+
+{
+  "firstName": "John Smith",
+  "lastName": "debela",
+  "email": "johnsmith@example.com",
+  "age": 23,
+  "course": "Software Engineering"
+}
+
+####
+
+DELETE http://localhost:8080/api/students/2
